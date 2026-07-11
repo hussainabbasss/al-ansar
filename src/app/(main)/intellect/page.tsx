@@ -11,6 +11,7 @@ import {
 } from "@/lib/intellect/daily-pack";
 import type { Hadith } from "@/lib/intellect/corpus";
 import { hadithCorpus } from "@/lib/intellect/corpus";
+import { markIntellectOpened } from "@/lib/intellect/opened";
 
 export default function IntellectPage() {
   const [visible, setVisible] = useState<Hadith[]>([]);
@@ -24,6 +25,7 @@ export default function IntellectPage() {
     (async () => {
       try {
         const result = await openIntellectFeed();
+        await markIntellectOpened();
         if (cancelled) return;
         setPack(result.pack);
         setVisible(result.visible);

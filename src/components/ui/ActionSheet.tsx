@@ -4,11 +4,19 @@ import Link from "next/link";
 import { useEffect, useId, useRef } from "react";
 import { X } from "lucide-react";
 
+type Action = {
+  id?: string;
+  label: string;
+  subtitle?: string;
+  href?: string;
+  onClick?: () => void;
+};
+
 type ActionSheetProps = {
   open: boolean;
   onClose: () => void;
   title?: string;
-  actions: { id?: string; label: string; href: string; subtitle?: string }[];
+  actions: Action[];
 };
 
 export function ActionSheet({
@@ -61,22 +69,44 @@ export function ActionSheet({
           </button>
         </div>
         <ul className="space-y-2">
-          {actions.map((action) => (
-            <li key={action.id ?? `${action.label}-${action.href}`}>
-              <Link
-                href={action.href}
-                onClick={onClose}
-                className="block min-h-11 rounded border border-outline-variant bg-surface-container px-4 py-3 transition-colors duration-200 hover:bg-surface-variant active:bg-surface-variant"
-              >
+          {actions.map((action) => {
+            const className =
+              "block w-full min-h-11 rounded border border-outline-variant bg-surface-container px-4 py-3 text-left transition-colors duration-200 hover:bg-surface-variant active:bg-surface-variant";
+            const body = (
+              <>
                 <p className="font-semibold text-on-surface">{action.label}</p>
                 {action.subtitle ? (
                   <p className="mt-0.5 text-sm text-on-surface-variant">
                     {action.subtitle}
                   </p>
                 ) : null}
-              </Link>
-            </li>
-          ))}
+              </>
+            );
+            return (
+              <li key={action.id ?? `${action.label}-${action.href ?? "fn"}`}>
+                {action.href ? (
+                  <Link
+                    href={action.href}
+                    onClick={onClose}
+                    className={className}
+                  >
+                    {body}
+                  </Link>
+                ) : (
+                  <button
+                    type="button"
+                    className={className}
+                    onClick={() => {
+                      action.onClick?.();
+                      onClose();
+                    }}
+                  >
+                    {body}
+                  </button>
+                )}
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>

@@ -1,10 +1,17 @@
 # Design System — Sacred Discipline
 
-Visual system for Intezari mobile UI. Canonical narrative also lives in `docs/ui-plan.md` and `docs/stitch_al_asr_readiness_training/sacred_discipline/DESIGN.md`.
+Visual system for **Al-Ansaar** mobile UI. Canonical narrative also lives in `docs/ui-plan.md` and `docs/stitch_al_asr_readiness_training/sacred_discipline/DESIGN.md`.
 
 ## Theme
 
 Dark-only nocturnal command surface. Tonal elevation (surface ladder), not shadows. Restrained color strategy: tinted slate neutrals + emerald primary + scarce gold secondary.
+
+## Brand
+
+| Form | Use |
+|------|-----|
+| **الانصار** (Aref Ruqaa) | Hero calligraphic mark on Progress; quiet echo in atmospheric footer / sign-in |
+| **AL-ANSAAR** (Source Serif, tracked) | Top bar wordmark and Latin chrome |
 
 ## Colors
 
@@ -19,27 +26,28 @@ Dark-only nocturnal command surface. Tonal elevation (surface ladder), not shado
 | on-surface | `#dae2fd` | Body / titles |
 | on-surface-variant | `#bfc9c3` | Secondary |
 | outline / outline-variant | `#89938d` / `#404944` | Labels / borders |
-| primary | `#95d3ba` | Progress, brand accent |
+| primary | `#95d3ba` | Progress, Latin brand accent |
 | primary-container | `#064e3b` | Filled CTAs |
-| secondary | `#ffb95f` | Active tab, READY, spiritual CTAs |
+| secondary | `#ffb95f` | Calligraphy, active tab, READY, spiritual CTAs |
 
 ## Typography
 
-- **Source Serif 4** — display, wordmark, sacred quotes
+- **Aref Ruqaa** — Arabic calligraphy (الانصار)
+- **Source Serif 4** — display, Latin wordmark, sacred quotes
 - **Geist** — UI titles and body
 - **JetBrains Mono** — caps labels, metrics, chips
 
 ## Spacing & radius
 
-4px base; 8px rhythm; 20px mobile margin. Disciplined radii: ~4px controls, ~8px cards. Pills only for small chips and tab shell.
+4px base; 8px rhythm; ~20–28px mobile margin. Disciplined radii: ~4px controls, ~8px cards. Pills only for small chips and tab shell.
 
 ## Components
 
-Shared under `src/components/ui/`: AppTopBar, BottomTabs, ReadinessRing, CommandmentCard, PresenceRow, PromptComposer, FAB, ActionSheet, JournalSheet, StackHeader, PrimaryButton.
+Shared under `src/components/ui/`: AlAnsaarMark, AppTopBar, BottomTabs, PreparationRing, CommandmentCard, PresenceRow, PromptComposer, FAB, ActionSheet, JournalSheet, MorningNoteSheet, StackHeader, PrimaryButton.
 
 ## Motion
 
-READY pulse, readiness ring draw-in, sync spin. 150–250ms for UI transitions. Honor reduced motion.
+Brand mark reveal (blur → clear), READY pulse, progress ring draw-in, sync spin, section fade-ins on Progress (150–450ms, ease-out-expo). Honor reduced motion.
 
 ## z-index
 

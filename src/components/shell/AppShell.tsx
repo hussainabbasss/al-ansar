@@ -1,8 +1,11 @@
 "use client";
 
-import { usePathname } from "next/navigation";
+import { useEffect } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { AppTopBar } from "@/components/ui/AppTopBar";
 import { BottomTabs } from "@/components/ui/BottomTabs";
+import { attachNotificationDeepLinks } from "@/lib/notifications/deep-links";
+import { refreshLocalSchedules } from "@/lib/notifications/schedule-all";
 
 const HIDE_CHROME = ["/sign-in"];
 
@@ -23,8 +26,28 @@ function topBarVariant(pathname: string): "centered" | "brand-left" {
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const router = useRouter();
   const chromeHidden = hideTabs(pathname);
   const showReadyLabel = pathname.startsWith("/physical");
+
+  useEffect(() => {
+    let detach: (() => void) | undefined;
+    void attachNotificationDeepLinks(router).then((fn) => {
+      detach = fn;
+    });
+    void refreshLocalSchedules();
+
+    function onVis() {
+      if (document.visibilityState === "visible") {
+        void refreshLocalSchedules();
+      }
+    }
+    document.addEventListener("visibilitychange", onVis);
+    return () => {
+      document.removeEventListener("visibilitychange", onVis);
+      void detach?.();
+    };
+  }, [router]);
 
   if (chromeHidden) {
     return <div className="min-h-full flex-1">{children}</div>;

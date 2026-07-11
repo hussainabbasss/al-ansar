@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
+import { extractJsonObject, generateLlmText } from "@/lib/llm/providers";
 import type { FitnessPlanPayload, FitnessProfile } from "@/lib/physical/types";
 import { buildFallbackPlan } from "@/lib/physical/fallback-plan";
 
 export const runtime = "nodejs";
 
-const PLAN_SCHEMA_PROMPT = `You are a cautious fitness coach for a Shia readiness app (Intezari).
+const PLAN_SCHEMA_PROMPT = `You are a cautious fitness coach for a Shia readiness app (Al-Ansaar).
 Return ONLY valid JSON matching this shape:
 {
   "summary": "string",
@@ -63,78 +64,29 @@ function isProfile(body: unknown): body is { profile: FitnessProfile } {
   return !!p && typeof p.heightCm === "number" && typeof p.weightKg === "number";
 }
 
-function extractJson(text: string): FitnessPlanPayload | null {
-  const trimmed = text.trim();
-  try {
-    return JSON.parse(trimmed) as FitnessPlanPayload;
-  } catch {
-    const start = trimmed.indexOf("{");
-    const end = trimmed.lastIndexOf("}");
-    if (start >= 0 && end > start) {
-      try {
-        return JSON.parse(trimmed.slice(start, end + 1)) as FitnessPlanPayload;
-      } catch {
-        return null;
-      }
-    }
-    return null;
-  }
-}
-
-async function callGemini(
-  profile: FitnessProfile,
-): Promise<FitnessPlanPayload | null> {
-  const key = process.env.GEMINI_API_KEY;
-  if (!key) return null;
-
-  const model = process.env.GEMINI_FITNESS_MODEL ?? "gemini-2.0-flash";
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
-
-  const res = await fetch(url, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-goog-api-key": key,
-    },
-    body: JSON.stringify({
-      systemInstruction: {
-        parts: [{ text: PLAN_SCHEMA_PROMPT }],
-      },
-      contents: [
-        {
-          role: "user",
-          parts: [
-            {
-              text: `Generate a one-month companion training plan for this profile:\n${JSON.stringify(profile, null, 2)}`,
-            },
-          ],
-        },
-      ],
-      generationConfig: {
-        temperature: 0.4,
-        responseMimeType: "application/json",
-      },
-    }),
-  });
-
-  if (!res.ok) {
-    const errText = await res.text().catch(() => "");
-    console.error("Gemini fitness error", res.status, errText.slice(0, 400));
-    return null;
-  }
-
-  const data = (await res.json()) as {
-    candidates?: { content?: { parts?: { text?: string }[] } }[];
-  };
-  const raw = data.candidates?.[0]?.content?.parts
-    ?.map((p) => p.text ?? "")
-    .join("")
-    .trim();
-  if (!raw) return null;
-
-  const parsed = extractJson(raw);
+function parsePlan(text: string): FitnessPlanPayload | null {
+  const parsed = extractJsonObject(text) as FitnessPlanPayload | null;
   if (!parsed?.weeks || parsed.weeks.length !== 4) return null;
   return parsed;
+}
+
+async function callLlmPlan(
+  profile: FitnessProfile,
+): Promise<{ plan: FitnessPlanPayload; provider: string } | null> {
+  const llm = await generateLlmText({
+    system: PLAN_SCHEMA_PROMPT,
+    user: `Generate a one-month companion training plan for this profile:\n${JSON.stringify(profile, null, 2)}`,
+    temperature: 0.4,
+    geminiModel: process.env.GEMINI_FITNESS_MODEL ?? "gemini-2.0-flash",
+    bazaarlinkModel:
+      process.env.BAZAARLINK_FITNESS_MODEL ??
+      process.env.BAZAARLINK_MODEL ??
+      "google/gemini-2.5-flash",
+  });
+  if (!llm.ok) return null;
+  const plan = parsePlan(llm.text);
+  if (!plan) return null;
+  return { plan, provider: llm.provider };
 }
 
 export async function POST(request: Request) {
@@ -144,12 +96,13 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Invalid profile" }, { status: 400 });
     }
 
-    const llm = await callGemini(body.profile);
-    const plan = llm ?? buildFallbackPlan(body.profile);
+    const llm = await callLlmPlan(body.profile);
+    const plan = llm?.plan ?? buildFallbackPlan(body.profile);
 
     return NextResponse.json({
       plan,
       source: llm ? "llm" : "fallback",
+      provider: llm?.provider ?? "local-fallback",
     });
   } catch {
     return NextResponse.json({ error: "Generation failed" }, { status: 500 });

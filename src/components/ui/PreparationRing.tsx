@@ -25,7 +25,7 @@ export function PreparationRing({
       <div
         className="relative flex size-48 items-center justify-center"
         role="img"
-        aria-label={`Preparation ${percent} percent of daily goals, ${status}`}
+        aria-label={`${label} ${percent} percent of daily goals, ${status}`}
       >
         <svg className="absolute inset-0 size-full -rotate-90" viewBox="0 0 100 100">
           <circle

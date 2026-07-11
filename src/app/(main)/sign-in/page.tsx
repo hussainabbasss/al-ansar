@@ -28,9 +28,16 @@ export default function SignInPage() {
         ← Back to app
       </Link>
 
-      <h1 className="font-display mb-2 text-center text-2xl font-semibold tracking-[0.2em] text-primary">
-        INTEZARI
+      <h1 className="font-display mb-2 text-center text-2xl font-semibold tracking-[0.18em] text-primary">
+        AL-ANSAAR
       </h1>
+      <p
+        lang="ar"
+        dir="rtl"
+        className="font-calligraphy mb-2 text-center text-3xl text-secondary"
+      >
+        الانصار
+      </p>
       <p className="mb-10 text-center text-sm leading-relaxed text-on-surface-variant">
         Sign in to sync and unlock AI features. Accounts are created on the web.
       </p>

@@ -1,4 +1,4 @@
-# Agent instructions — Intezari
+# Agent instructions — Al-Ansaar
 
 ## Read docs before building
 

@@ -1,8 +1,8 @@
-# Project Intezari — Overview
+# Project Al-Ansaar — Overview
 
 ## Vision
 
-Project Intezari is a high-performance, local-first mobile application for the Shia community. It moves past standard text-based readers and reframes **Intizar** (anticipation / waiting for Imam al-Mahdi, atfs) from a passive state into an active, holistic training program.
+**Al-Ansaar** (الانصار) is a high-performance, local-first mobile application for the Shia community. It moves past standard text-based readers and reframes **Intizar** (anticipation / waiting for Imam al-Mahdi, atfs) from a passive state into an active, holistic training program.
 
 The app tracks:
 

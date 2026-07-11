@@ -18,9 +18,11 @@ import type {
   StoredFitnessPlan,
 } from "@/lib/physical/types";
 import {
+  currentPlanDayIndex,
   isPlanDayTickable,
   planDayLabel,
 } from "@/lib/physical/schedule";
+import { onFirstExerciseCompletedToday } from "@/lib/notifications/exercise";
 
 function resolveHowTo(step: PlanExercise): string {
   if (step.howTo?.trim()) return step.howTo.trim();
@@ -84,6 +86,7 @@ function SessionContent() {
     if (!day || !weekData || !plan) return;
     if (!isPlanDayTickable(plan, weekData.week, dayIndex)) return;
     const key = sessionDayKey(weekData.week, day.day);
+    const wasEmpty = completed.length === 0;
     const next = completed.includes(id)
       ? completed.filter((x) => x !== id)
       : [...completed, id];
@@ -91,6 +94,13 @@ function SessionContent() {
     const progress = await loadSessionProgress();
     progress.completed[key] = next;
     await saveSessionProgress(progress);
+    if (
+      wasEmpty &&
+      next.length > 0 &&
+      dayIndex === currentPlanDayIndex(plan, weekData.week)
+    ) {
+      await onFirstExerciseCompletedToday();
+    }
   }
 
   const calorieHint = useMemo(() => {

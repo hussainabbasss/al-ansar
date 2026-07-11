@@ -1,0 +1,87 @@
+{
+  "note": "Curated authentic Shia duas for Muhasaba prescriptions. Gemini may only select an id from this list; UI resolves text from here.",
+  "fallbackId": "sahifa-morning-evening",
+  "duas": [
+    {
+      "id": "sahifa-morning-evening",
+      "source": "Sahifa al-Sajjadiyya",
+      "title": "Supplication for Morning and Evening",
+      "ref": "Du'a 6 — Imam Zayn al-Abidin (a.s.)",
+      "arabic": "أَصْبَحْنَا وَأَصْبَحَتِ الْأَشْيَاءُ كُلُّهَا بِكَ، وَأَمْسَيْنَا وَأَمْسَتِ الْأَشْيَاءُ كُلُّهَا بِكَ",
+      "translation": "We have entered morning — and all things have entered morning — by You; we have entered evening — and all things have entered evening — by You. O Allah, bless Muhammad and his Household, and make our morning and evening mornings and evenings of safety and well-being.",
+      "themes": ["morning", "evening", "steadfastness", "protection"]
+    },
+    {
+      "id": "sahifa-noble-traits",
+      "source": "Sahifa al-Sajjadiyya",
+      "title": "Noble Moral Traits",
+      "ref": "Du'a 20 (Makarim al-Akhlaq) — Imam Zayn al-Abidin (a.s.)",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِهِ، وَبَلِّغْ بِإِيمَانِي أَكْمَلَ الْإِيمَانِ، وَاجْعَلْ يَقِينِي أَفْضَلَ الْيَقِينِ",
+      "translation": "O Allah, bless Muhammad and his Household, bring my faith to the most perfect faith, and make my certainty the most excellent certainty. Occupy me with what You will ask me about tomorrow, and let me not busy myself with what You will not ask me about.",
+      "themes": ["distraction", "focus", "character", "certainty"]
+    },
+    {
+      "id": "sahifa-repentance",
+      "source": "Sahifa al-Sajjadiyya",
+      "title": "Asking for Pardon",
+      "ref": "Du'a 31 — Imam Zayn al-Abidin (a.s.)",
+      "arabic": "اللَّهُمَّ إِنَّهُ يَغْشَى وَيَحُولُ بَيْنَ الْمَرْءِ وَقَلْبِهِ، فَصَلِّ عَلَى مُحَمَّدٍ وَآلِهِ، وَلَا تَجْعَلِ الشَّيْطَانَ لَنَا قَرِيناً",
+      "translation": "O Allah, Satan covers and comes between a person and their heart. So bless Muhammad and his Household, and do not appoint Satan as an intimate companion for us. Replace our heedlessness with remembrance, and our distraction with presence before You.",
+      "themes": ["distraction", "heedlessness", "repentance", "hudur"]
+    },
+    {
+      "id": "sahifa-refuge",
+      "source": "Sahifa al-Sajjadiyya",
+      "title": "Seeking Refuge",
+      "ref": "Du'a 8 — Imam Zayn al-Abidin (a.s.)",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ هَيَجَانِ الْحِرْصِ، وَسَوْرَةِ الْغَضَبِ، وَغَلَبَةِ الْحَسَدِ",
+      "translation": "O Allah, I seek refuge in You from the agitation of greed, the surge of anger, the domination of envy, the weakness of patience, and the scarcity of contentment. Shelter me from whatever distances my heart from You.",
+      "themes": ["anger", "envy", "patience", "heart"]
+    },
+    {
+      "id": "sahifa-anxiety",
+      "source": "Sahifa al-Sajjadiyya",
+      "title": "Removing Anxiety",
+      "ref": "Du'a 54 — Imam Zayn al-Abidin (a.s.)",
+      "arabic": "يَا مَنْ تُحَلُّ بِهِ عُقَدُ الْمَكَارِهِ، وَيَا مَنْ يُفْثَأُ بِهِ حَدُّ الشَّدَائِدِ",
+      "translation": "O He through whom the knots of hardships are undone, O He by whom the edge of adversities is blunted. Bless Muhammad and his Household, and remove from me the worry that has entered me, and the distress that has settled upon me.",
+      "themes": ["anxiety", "distress", "lethargy", "relief"]
+    },
+    {
+      "id": "sahifa-thanksgiving",
+      "source": "Sahifa al-Sajjadiyya",
+      "title": "Thanksgiving",
+      "ref": "Du'a 1 (excerpt) — Imam Zayn al-Abidin (a.s.)",
+      "arabic": "الْحَمْدُ لِلَّهِ الْأَوَّلِ بِلَا أَوَّلٍ كَانَ قَبْلَهُ، وَالْآخِرِ بِلَا آخِرٍ يَكُونُ بَعْدَهُ",
+      "translation": "Praise belongs to Allah, the First with no first before Him, the Last with no last after Him. Praise be to Allah who has distracted us from thanking Him with His gifts, yet still opens for us the doors of knowledge of His praise.",
+      "themes": ["gratitude", "praise", "steadfastness"]
+    },
+    {
+      "id": "mafatih-tawassul-short",
+      "source": "Mafatih al-Jinan",
+      "title": "Tawassul (opening)",
+      "ref": "Dua al-Tawassul — opening appeal",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ وَأَتَوَجَّهُ إِلَيْكَ بِنَبِيِّكَ نَبِيِّ الرَّحْمَةِ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ",
+      "translation": "O Allah, I ask You and turn toward You through Your Prophet, the Prophet of mercy, Muhammad — may Allah bless him and his Household. O our master, O Messenger of Allah: we turn through you to Allah, our Lord.",
+      "themes": ["tawassul", "steadfastness", "connection"]
+    },
+    {
+      "id": "mafatih-kumayl-excerpt",
+      "source": "Mafatih al-Jinan",
+      "title": "Dua Kumayl (mercy excerpt)",
+      "ref": "Dua Kumayl — taught by Imam Ali (a.s.) to Kumayl ibn Ziyad",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِرَحْمَتِكَ الَّتِي وَسِعَتْ كُلَّ شَيْءٍ، وَبِقُوَّتِكَ الَّتِي قَهَرْتَ بِهَا كُلَّ شَيْءٍ",
+      "translation": "O Allah, I ask You by Your mercy that embraces all things, and by Your strength through which You dominate all things. Forgive me those sins that tear apart safeguards, and those that bring down tribulations — and return my heart to presence with You.",
+      "themes": ["mercy", "repentance", "hudur", "after-salah"]
+    },
+    {
+      "id": "sahifa-parents-humility",
+      "source": "Sahifa al-Sajjadiyya",
+      "title": "Good Outcomes in Faith",
+      "ref": "Du'a 5 (excerpt) — Imam Zayn al-Abidin (a.s.)",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِهِ، وَاجْعَلْنَا مِنْ أَهْلِ الْإِيمَانِ، وَأَلْحِقْنَا بِعِبَادِكَ الصَّالِحِينَ",
+      "translation": "O Allah, bless Muhammad and his Household, make us among the people of faith, and join us to Your righteous servants. Do not leave us to ourselves for the blinking of an eye, and set right for us the outcomes of our affairs.",
+      "themes": ["faith", "steadfastness", "lethargy"]
+    }
+  ]
+}

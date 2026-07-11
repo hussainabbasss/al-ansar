@@ -109,6 +109,12 @@ blockquote {
   font-family: var(--font-source-serif), ui-serif, Georgia, serif;
 }
 
+.font-calligraphy {
+  font-family: var(--font-calligraphy), "Aref Ruqaa", "Amiri", "Noto Naskh Arabic",
+    serif;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
 .font-label {
   font-family: var(--font-jetbrains), ui-monospace, monospace;
   font-size: 12px;

@@ -68,9 +68,9 @@ export function AppTopBar({
           </div>
           <Link
             href="/"
-            className="font-display text-xl font-semibold tracking-[0.2em] text-primary transition-opacity hover:opacity-90"
+            className="font-display text-xl font-semibold tracking-[0.18em] text-primary transition-opacity hover:opacity-90"
           >
-            INTEZARI
+            AL-ANSAAR
           </Link>
           {syncControl}
         </>
@@ -80,9 +80,9 @@ export function AppTopBar({
             {accountLink}
             <Link
               href="/"
-              className="font-display truncate text-lg font-semibold tracking-[0.18em] text-primary transition-opacity hover:opacity-90"
+              className="font-display truncate text-lg font-semibold tracking-[0.16em] text-primary transition-opacity hover:opacity-90"
             >
-              INTEZARI
+              AL-ANSAAR
             </Link>
           </div>
           <div className="flex items-center gap-3">
