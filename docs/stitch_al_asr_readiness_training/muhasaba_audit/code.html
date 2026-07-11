@@ -1,0 +1,314 @@
+<!DOCTYPE html><html lang="en" class="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-primary": "#003829",
+                      "on-surface": "#dae2fd",
+                      "surface": "#0b1326",
+                      "on-secondary-fixed-variant": "#653e00",
+                      "on-secondary-container": "#5b3800",
+                      "tertiary-fixed": "#d5e3fd",
+                      "secondary-fixed-dim": "#ffb95f",
+                      "surface-container-lowest": "#060e20",
+                      "on-background": "#dae2fd",
+                      "on-secondary": "#472a00",
+                      "inverse-primary": "#2b6954",
+                      "on-tertiary-container": "#a4b2ca",
+                      "on-primary-container": "#80bea6",
+                      "tertiary-container": "#374559",
+                      "surface-container": "#171f33",
+                      "on-tertiary-fixed-variant": "#3a485c",
+                      "secondary-fixed": "#ffddb8",
+                      "primary": "#95d3ba",
+                      "tertiary-fixed-dim": "#b9c7e0",
+                      "surface-dim": "#0b1326",
+                      "on-error": "#690005",
+                      "surface-variant": "#2d3449",
+                      "on-secondary-fixed": "#2a1700",
+                      "on-error-container": "#ffdad6",
+                      "outline-variant": "#404944",
+                      "secondary": "#ffb95f",
+                      "primary-container": "#064e3b",
+                      "surface-container-highest": "#2d3449",
+                      "error": "#ffb4ab",
+                      "primary-fixed": "#b0f0d6",
+                      "outline": "#89938d",
+                      "surface-tint": "#95d3ba",
+                      "surface-container-high": "#222a3d",
+                      "on-primary-fixed": "#002117",
+                      "primary-fixed-dim": "#95d3ba",
+                      "on-surface-variant": "#bfc9c3",
+                      "on-tertiary": "#233144",
+                      "on-tertiary-fixed": "#0d1c2f",
+                      "on-primary-fixed-variant": "#0b513d",
+                      "surface-container-low": "#131b2e",
+                      "inverse-on-surface": "#283044",
+                      "tertiary": "#b9c7e0",
+                      "secondary-container": "#ee9800",
+                      "background": "#0b1326",
+                      "inverse-surface": "#dae2fd",
+                      "surface-bright": "#31394d",
+                      "error-container": "#93000a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "md": "16px",
+                      "margin-mobile": "20px",
+                      "base": "4px",
+                      "sm": "8px",
+                      "gutter": "16px",
+                      "xs": "4px",
+                      "lg": "24px",
+                      "margin-desktop": "64px",
+                      "xl": "40px"
+              },
+              "fontFamily": {
+                      "title-md": ["Geist"],
+                      "display": ["\"Source Serif 4\""],
+                      "body-lg": ["Geist"],
+                      "headline-lg": ["\"Source Serif 4\""],
+                      "headline-lg-mobile": ["\"Source Serif 4\""],
+                      "data-mono": ["JetBrains Mono"],
+                      "body-sm": ["Geist"],
+                      "label-caps": ["JetBrains Mono"]
+              },
+              "fontSize": {
+                      "title-md": ["18px", {"lineHeight": "24px", "fontWeight": "600"}],
+                      "display": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "body-lg": ["16px", {"lineHeight": "26px", "fontWeight": "400"}],
+                      "headline-lg": ["30px", {"lineHeight": "36px", "fontWeight": "600"}],
+                      "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "data-mono": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+                      "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                      "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500"}]
+              }
+            },
+          },
+        }
+    }catch(_e){}</script><meta charset="utf-8"></head><body class="font-body-sm text-on-surface bg-surface min-h-screen pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full flex justify-between items-center px-margin-mobile h-16 bg-surface/80 dark:bg-surface/80 backdrop-blur-xl border-b border-outline-variant dark:border-outline-variant z-50">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary hover:opacity-80 transition-opacity cursor-pointer">account_circle</span>
+<div class="ready-pulse ml-2"></div>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile tracking-widest text-primary dark:text-primary">INTEZARI</h1>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-primary hover:opacity-80 transition-opacity cursor-pointer active:scale-95 transition-transform duration-150">sync</span>
+</div>
+</header>
+<main class="pt-24 px-margin-mobile max-w-5xl mx-auto">
+<!-- Header Section -->
+<section class="mb-lg">
+<div class="flex items-center justify-between">
+<div>
+<p class="font-label-caps text-label-caps text-secondary tracking-widest mb-xs">DAILY AUDIT</p>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Muhasaba Focus</h2>
+</div>
+<div class="text-right">
+<p class="font-data-mono text-data-mono text-on-surface-variant">14th Rabi' al-Thani</p>
+<span class="inline-flex items-center px-sm py-1 bg-primary-container text-primary font-label-caps text-[10px] rounded-full border border-primary/20">ACTIVE READINESS</span>
+</div>
+</div>
+</section>
+<!-- Bento Grid Main Content -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Prayer Presence Tracker (Salat) -->
+<div class="md:col-span-8 discipline-card p-lg relative overflow-hidden">
+<div class="absolute top-0 right-0 p-lg opacity-10">
+<span class="material-symbols-outlined text-[80px]">flare</span>
+</div>
+<h3 class="font-title-md text-title-md mb-md flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary">domino_mask</span> 
+                    Presence Audit (Salat)
+                </h3>
+<div class="space-y-md">
+<div class="flex items-center justify-between py-sm border-b border-outline-variant">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant">FAJR</span>
+<span class="font-body-lg text-body-lg">Pre-Dawn Connection</span>
+</div>
+<div class="flex gap-sm">
+<button class="w-10 h-10 flex items-center justify-center rounded-full border border-primary text-primary transition-all active:scale-90" title="Full Presence">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">circle</span>
+</button>
+<button class="w-10 h-10 flex items-center justify-center rounded-full border border-outline text-on-surface-variant hover:border-primary transition-all">
+<span class="material-symbols-outlined">circle</span>
+</button>
+</div>
+</div>
+<div class="flex items-center justify-between py-sm border-b border-outline-variant">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant">DHUHR / ASR</span>
+<span class="font-body-lg text-body-lg">Mid-Day Resilience</span>
+</div>
+<div class="flex gap-sm">
+<button class="w-10 h-10 flex items-center justify-center rounded-full border border-primary bg-primary-container text-primary active:scale-90" title="Recorded">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</button>
+</div>
+</div>
+<div class="flex items-center justify-between py-sm border-b border-outline-variant opacity-60">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant">MAGHRIB / ISHA</span>
+<span class="font-body-lg text-body-lg">Evening Reflection</span>
+</div>
+<span class="font-data-mono text-data-mono italic">Awaiting Hour...</span>
+</div>
+</div>
+</div>
+<!-- Weekly Readiness Audit -->
+<div class="md:col-span-4 bg-surface-container-high p-lg flex flex-col border border-outline-variant">
+<h3 class="font-title-md text-title-md mb-md flex items-center gap-sm text-secondary">
+<span class="material-symbols-outlined">bolt</span>
+                    Ready Summary
+                </h3>
+<div class="flex-grow flex flex-col justify-center items-center text-center space-y-md">
+<div class="relative w-32 h-32 flex items-center justify-center border-4 border-secondary rounded-full">
+<span class="font-display text-[42px] text-secondary">88</span>
+<div class="absolute -bottom-2 px-md bg-secondary text-on-secondary font-label-caps text-[10px] rounded-full">INDEX</div>
+</div>
+<p class="font-body-sm text-on-surface-variant px-sm mt-md">
+                        Your spiritual alertness is elevated. Discipline in <span class="text-primary">Fajr</span> and <span class="text-primary">Nightly Reflection</span> has improved by 12%.
+                    </p>
+</div>
+<button class="mt-lg w-full py-md bg-secondary text-on-secondary font-label-caps tracking-widest hover:opacity-90 transition-opacity">
+                    DOWNLOAD PDF LOG
+                </button>
+</div>
+<!-- Reflection Prompt Card -->
+<div class="md:col-span-12 discipline-card p-lg border-l-4 border-l-secondary relative overflow-hidden">
+<div class="absolute inset-0 geometric-bg bg-[url('https://www.transparenttextures.com/patterns/islamic-art.png')] pointer-events-none"></div>
+<div class="relative z-10">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim mb-sm block">PROMPT OF THE DAY</span>
+<blockquote class="font-display text-headline-lg-mobile text-on-surface leading-tight mb-md">
+                        "If you found yourself at the threshold of the Final Moment this evening, what is the one act of service you would regret leaving undone?"
+                    </blockquote>
+<div class="w-full">
+<textarea class="w-full bg-surface-container-lowest border border-outline-variant focus:border-secondary focus:ring-0 text-on-surface font-body-sm p-md h-32 placeholder:text-on-surface-variant/40" placeholder="Type your reflection here..."></textarea>
+<div class="flex justify-end mt-sm">
+<span class="font-data-mono text-[10px] text-on-surface-variant">AUTO-SAVING LOCALLY</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Micro-Metric Grid -->
+<div class="md:col-span-6 grid grid-cols-2 gap-gutter">
+<div class="bg-surface-container p-md border border-outline-variant">
+<span class="material-symbols-outlined text-primary mb-sm">menu_book</span>
+<p class="font-label-caps text-label-caps text-on-surface-variant">Reading</p>
+<p class="font-title-md text-title-md">45 / 60 min</p>
+</div>
+<div class="bg-surface-container p-md border border-outline-variant">
+<span class="material-symbols-outlined text-secondary mb-sm">history_edu</span>
+<p class="font-label-caps text-label-caps text-on-surface-variant">Journaling</p>
+<p class="font-title-md text-title-md">Completed</p>
+</div>
+</div>
+<!-- Upcoming Task Checklist -->
+<div class="md:col-span-6 bg-surface-container-low p-lg border border-outline-variant">
+<h3 class="font-label-caps text-label-caps mb-md text-on-surface-variant">SOCIETAL READINESS</h3>
+<ul class="space-y-sm">
+<li class="flex items-center gap-md font-body-sm">
+<input type="checkbox" class="w-5 h-5 bg-transparent border-primary rounded-sm text-primary focus:ring-offset-0 focus:ring-0">
+<span>Check in on neighbor (Community Debt)</span>
+</li>
+<li class="flex items-center gap-md font-body-sm">
+<input type="checkbox" class="w-5 h-5 bg-transparent border-primary rounded-sm text-primary focus:ring-offset-0 focus:ring-0">
+<span>Contribute to local trust fund</span>
+</li>
+<li class="flex items-center gap-md font-body-sm opacity-40">
+<input type="checkbox" checked="" class="w-5 h-5 bg-primary border-primary rounded-sm text-on-primary focus:ring-offset-0 focus:ring-0">
+<span class="line-through">Skill Acquisition: First Aid Drill</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Sync Visualization -->
+<div class="mt-xl flex items-center justify-center gap-sm opacity-30">
+<span class="material-symbols-outlined text-[14px]">encrypted</span>
+<span class="font-data-mono text-[10px] tracking-widest uppercase">E2E Encrypted Local Storage Only</span>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-margin-mobile py-sm pb-8 bg-surface/90 dark:bg-surface/90 backdrop-blur-xl border-t border-outline-variant dark:border-outline-variant z-50 rounded-t-full">
+<a href="#" class="flex flex-col items-center justify-center text-on-surface-variant/60 dark:text-on-surface-variant/60 hover:text-secondary/80 transition-colors">
+<span class="material-symbols-outlined">fitness_center</span>
+<span class="font-label-caps text-label-caps">Physical</span>
+</a>
+<a href="#" class="flex flex-col items-center justify-center text-on-surface-variant/60 dark:text-on-surface-variant/60 hover:text-secondary/80 transition-colors">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-label-caps text-label-caps">Intellect</span>
+</a>
+<a href="#" class="flex flex-col items-center justify-center text-secondary dark:text-secondary active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">self_improvement</span>
+<span class="font-label-caps text-label-caps">Spiritual</span>
+</a>
+<a href="#" class="flex flex-col items-center justify-center text-on-surface-variant/60 dark:text-on-surface-variant/60 hover:text-secondary/80 transition-colors">
+<span class="material-symbols-outlined">bolt</span>
+<span class="font-label-caps text-label-caps">Readiness</span>
+</a>
+</nav>
+<!-- Navigation Drawer (Desktop/Tablet) -->
+<aside class="hidden xl:flex fixed left-0 top-0 h-full w-80 bg-surface-container border-r border-outline-variant flex-col p-md gap-sm z-[60] shadow-xl">
+<div class="mb-xl px-sm">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-widest mb-lg">INTEZARI</h1>
+<div class="flex items-center gap-md bg-surface-container-highest p-md rounded-xl">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A striking portrait of a focused man in a dark environment with green tactical lighting, styled as a modern minimalist character icon for a spiritual readiness app. The aesthetic is high-performance and disciplined." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgKnBvCPh0uaq39XK68qP_3jVezCsge4SelOUPFfTNAHzPJTVVAXjOk7Sou9D6PsH1fVoqGVIYUjZSrMDJb2rNkoqj2OdSeBc876G1gKTJXg67JTG0A6aa--CLo2thLeqrcoQavOKBfXiq71fC1kptzKiORSjj5ksRKWH8g4sYUJuZDM_6OP0z-tC3NOxMyby3cSC3cbdj29VFqTv3bsxFQoKkttitodHjph1cwQxRvYGOXlLptaToHICgLM6_Myul9XmmsLm6_Ts">
+</div>
+<div>
+<h4 class="font-title-md text-title-md">Muntazir</h4>
+<p class="font-body-sm text-on-surface-variant">Active Readiness</p>
+</div>
+</div>
+</div>
+<nav class="space-y-base flex-grow">
+<a class="flex items-center gap-md p-md bg-primary-container text-on-primary-container rounded-full font-bold transition-transform translate-x-1" href="#">
+<span class="material-symbols-outlined">edit_note</span>
+<span class="font-body-sm">Daily Log</span>
+</a>
+<a class="flex items-center gap-md p-md text-on-surface-variant hover:bg-surface-variant transition-colors rounded-full" href="#">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="font-body-sm">Library</span>
+</a>
+<a class="flex items-center gap-md p-md text-on-surface-variant hover:bg-surface-variant transition-colors rounded-full" href="#">
+<span class="material-symbols-outlined">history_edu</span>
+<span class="font-body-sm">Muhasaba Archive</span>
+</a>
+<a class="flex items-center gap-md p-md text-on-surface-variant hover:bg-surface-variant transition-colors rounded-full" href="#">
+<span class="material-symbols-outlined">groups</span>
+<span class="font-body-sm">Community Stats</span>
+</a>
+</nav>
+<div class="mt-auto border-t border-outline-variant pt-md">
+<a class="flex items-center gap-md p-md text-on-surface-variant hover:bg-surface-variant transition-colors rounded-full" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="font-body-sm">Settings</span>
+</a>
+<p class="font-data-mono text-[10px] text-center mt-md text-outline">Sync: Local-First</p>
+</div>
+</aside>
+<script>
+        // Simple micro-interaction for tapping prayer circles
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const icon = this.querySelector('.material-symbols-outlined');
+                if (icon) {
+                    const isFilled = icon.style.fontVariationSettings.includes("'FILL' 1");
+                    icon.style.fontVariationSettings = isFilled ? "'FILL' 0" : "'FILL' 1";
+                    if (!isFilled) {
+                        this.classList.add('border-primary', 'text-primary');
+                    }
+                }
+            });
+        });
+    </script>
+</body></html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html><html lang="en" class="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary": "#003829",
+                        "on-surface": "#dae2fd",
+                        "surface": "#0b1326",
+                        "on-secondary-fixed-variant": "#653e00",
+                        "on-secondary-container": "#5b3800",
+                        "tertiary-fixed": "#d5e3fd",
+                        "secondary-fixed-dim": "#ffb95f",
+                        "surface-container-lowest": "#060e20",
+                        "on-background": "#dae2fd",
+                        "on-secondary": "#472a00",
+                        "inverse-primary": "#2b6954",
+                        "on-tertiary-container": "#a4b2ca",
+                        "on-primary-container": "#80bea6",
+                        "tertiary-container": "#374559",
+                        "surface-container": "#171f33",
+                        "on-tertiary-fixed-variant": "#3a485c",
+                        "secondary-fixed": "#ffddb8",
+                        "primary": "#95d3ba",
+                        "tertiary-fixed-dim": "#b9c7e0",
+                        "surface-dim": "#0b1326",
+                        "on-error": "#690005",
+                        "surface-variant": "#2d3449",
+                        "on-secondary-fixed": "#2a1700",
+                        "on-error-container": "#ffdad6",
+                        "outline-variant": "#404944",
+                        "secondary": "#ffb95f",
+                        "primary-container": "#064e3b",
+                        "surface-container-highest": "#2d3449",
+                        "error": "#ffb4ab",
+                        "primary-fixed": "#b0f0d6",
+                        "outline": "#89938d",
+                        "surface-tint": "#95d3ba",
+                        "surface-container-high": "#222a3d",
+                        "on-primary-fixed": "#002117",
+                        "primary-fixed-dim": "#95d3ba",
+                        "on-surface-variant": "#bfc9c3",
+                        "on-tertiary": "#233144",
+                        "on-tertiary-fixed": "#0d1c2f",
+                        "on-primary-fixed-variant": "#0b513d",
+                        "surface-container-low": "#131b2e",
+                        "inverse-on-surface": "#283044",
+                        "tertiary": "#b9c7e0",
+                        "secondary-container": "#ee9800",
+                        "background": "#0b1326",
+                        "inverse-surface": "#dae2fd",
+                        "surface-bright": "#31394d",
+                        "error-container": "#93000a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "md": "16px",
+                        "margin-mobile": "20px",
+                        "base": "4px",
+                        "sm": "8px",
+                        "gutter": "16px",
+                        "xs": "4px",
+                        "lg": "24px",
+                        "margin-desktop": "64px",
+                        "xl": "40px"
+                    },
+                    "fontFamily": {
+                        "title-md": ["Geist"],
+                        "display": ["\"Source Serif 4\""],
+                        "body-lg": ["Geist"],
+                        "headline-lg": ["\"Source Serif 4\""],
+                        "headline-lg-mobile": ["\"Source Serif 4\""],
+                        "data-mono": ["JetBrains Mono"],
+                        "body-sm": ["Geist"],
+                        "label-caps": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "title-md": ["18px", {"lineHeight": "24px", "fontWeight": "600"}],
+                        "display": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-lg": ["16px", {"lineHeight": "26px", "fontWeight": "400"}],
+                        "headline-lg": ["30px", {"lineHeight": "36px", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "data-mono": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+                        "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    }catch(_e){}</script><meta charset="utf-8"></head><body class="bg-surface text-on-surface font-body-sm selection:bg-primary selection:text-on-primary">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full flex justify-between items-center px-margin-mobile h-16 bg-surface/80 dark:bg-surface/80 backdrop-blur-xl border-b border-outline-variant dark:border-outline-variant z-50">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary" data-icon="account_circle" data-original-icon="account_circle">account_circle</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile tracking-widest text-primary dark:text-primary">INTEZARI</span>
+</div>
+<div class="flex items-center gap-md">
+<div class="flex items-center gap-xs">
+<div class="w-2 h-2 rounded-full bg-secondary ready-pulse"></div>
+<span class="font-label-caps text-label-caps text-secondary">READY</span>
+</div>
+<button class="material-symbols-outlined text-primary hover:opacity-80 transition-opacity active:scale-95 transition-transform duration-150" data-icon="sync">sync</button>
+</div>
+</header>
+<main class="pt-24 pb-32 px-margin-mobile max-w-screen-xl mx-auto">
+<!-- Hero Section -->
+<section class="mb-lg">
+<div class="flex flex-col gap-xs">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest">SACRED DISCIPLINE</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Physical Readiness</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Your body is the vessel for wait. Forge endurance, mobility, and functional strength for the moment of action.</p>
+</div>
+</section>
+<!-- Bento Layout -->
+<div class="bento-grid">
+<!-- Weekly Chart Card -->
+<div class="md:col-span-3 bg-surface-container border border-outline-variant p-md rounded-xl flex flex-col gap-md relative overflow-hidden">
+<div class="absolute top-0 right-0 p-md opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-6xl" data-icon="grid_4x4">grid_4x4</span>
+</div>
+<div class="flex justify-between items-end">
+<div>
+<h2 class="font-title-md text-title-md text-primary">Readiness Load</h2>
+<span class="font-data-mono text-data-mono text-on-surface-variant uppercase">Weekly Activity Trend</span>
+</div>
+<div class="text-right">
+<span class="font-headline-lg text-headline-lg text-secondary">84%</span>
+<p class="font-label-caps text-label-caps text-on-surface-variant">OPTIMAL</p>
+</div>
+</div>
+<!-- Simple Bar Chart Visualization -->
+<div class="flex items-end justify-between h-32 gap-sm mt-md">
+<div class="flex flex-col items-center flex-1 gap-sm">
+<div class="w-full bg-surface-variant rounded-t-sm h-[40%] transition-all hover:bg-primary-container"></div>
+<span class="font-label-caps text-[10px]">MON</span>
+</div>
+<div class="flex flex-col items-center flex-1 gap-sm">
+<div class="w-full bg-surface-variant rounded-t-sm h-[65%] transition-all hover:bg-primary-container"></div>
+<span class="font-label-caps text-[10px]">TUE</span>
+</div>
+<div class="flex flex-col items-center flex-1 gap-sm">
+<div class="w-full bg-primary rounded-t-sm h-[90%] transition-all"></div>
+<span class="font-label-caps text-[10px] text-primary">WED</span>
+</div>
+<div class="flex flex-col items-center flex-1 gap-sm">
+<div class="w-full bg-surface-variant rounded-t-sm h-[50%] transition-all hover:bg-primary-container"></div>
+<span class="font-label-caps text-[10px]">THU</span>
+</div>
+<div class="flex flex-col items-center flex-1 gap-sm">
+<div class="w-full bg-surface-variant rounded-t-sm h-[75%] transition-all hover:bg-primary-container"></div>
+<span class="font-label-caps text-[10px]">FRI</span>
+</div>
+<div class="flex flex-col items-center flex-1 gap-sm">
+<div class="w-full bg-secondary rounded-t-sm h-[100%] transition-all"></div>
+<span class="font-label-caps text-[10px] text-secondary">SAT</span>
+</div>
+<div class="flex flex-col items-center flex-1 gap-sm">
+<div class="w-full bg-surface-variant rounded-t-sm h-[30%] transition-all hover:bg-primary-container"></div>
+<span class="font-label-caps text-[10px]">SUN</span>
+</div>
+</div>
+</div>
+<!-- CTA Log Button Card -->
+<div class="md:col-span-1 bg-primary-container text-on-primary-container p-md rounded-xl flex flex-col justify-between items-start group cursor-pointer active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-4xl" data-icon="add_circle">add_circle</span>
+<div>
+<h3 class="font-title-md text-title-md">Record Session</h3>
+<p class="font-body-sm text-body-sm opacity-80">Log your daily muhasaba of movement.</p>
+</div>
+<button class="mt-md w-full py-sm bg-on-primary text-primary font-label-caps text-label-caps rounded-full text-center">INITIALIZE</button>
+</div>
+<!-- Training Module-->
+<div class="md:col-span-2 bg-surface-container-high border border-outline-variant rounded-xl overflow-hidden flex flex-col">
+<div class="h-40 relative">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-high to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A cinematic, high-contrast black and white photograph of a solitary athlete running across a rugged, misty mountain ridge at dawn. The lighting is low-key and dramatic, emphasizing the athlete's muscular silhouette against the soft, ethereal fog. The mood is one of focused determination and solemn endurance, fitting the high-performance sacred discipline aesthetic." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCfrMCckNPytKtK4lW1prZw48kFyEZ9fb2_1--D8Jsc3btF8VDIzyoub3rW9W5XokAPrHXYFVqcm5Gg1C5MiMk_reSURcUYbhxbxmXmVWn2T3B40_-NUI5qf-68g47-6LfFQPIIBV8RxyFlsh1BB8Y611mvwRcyGmhlPjaDjMEFrrkEZQHSziQ2WmagkbDZPBkvxAsbzdt9BRtKn5XMYYmQ7Vp1CQE6o6Q1bE0i--tqK0XZ1a9pz8XCQjf3YwUXboIH2EMs6sQy9x4')"></div>
+<div class="absolute bottom-md left-md z-20">
+<span class="px-sm py-1 bg-secondary text-on-secondary font-label-caps text-[10px] rounded-sm">ENDURANCE</span>
+</div>
+</div>
+<div class="p-md flex flex-col gap-sm">
+<h3 class="font-title-md text-title-md">Companion Endurance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Long-duration metabolic conditioning to sustain focus under physical fatigue.</p>
+<div class="flex justify-between items-center mt-sm pt-sm border-t border-outline-variant">
+<span class="font-data-mono text-data-mono text-secondary">LVL 04</span>
+<span class="font-data-mono text-data-mono text-on-surface-variant">45 MINS</span>
+</div>
+</div>
+</div>
+<!-- Training Module: Functional Agility -->
+<div class="md:col-span-2 bg-surface-container-high border border-outline-variant rounded-xl overflow-hidden flex flex-col">
+<div class="h-40 relative">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-high to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A dramatic, close-up shot of heavy industrial ropes and steel weights in a minimalist, dimly lit gym. Deep slate and charcoal tones dominate the palette, with a single beam of golden light highlighting the texture of the equipment. The style is sophisticated minimalism, evoking a sense of raw, functional strength and architectural order." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBRoWypYaJekdZqD_gv2DSCa2lY_4IeXtiGHnd7DdXJABwzaUbyA_KnoA4CzlUWhDBQLcUzmg79UiVQTtF2rKBLJsbmJUVPruCVZsNyLoDsjxG7LQLFUbeoCKMvq7Pdag9mIXEkNsy8hxKgZjKy7LQTgwbID5rOr_gAdpTJt0O9V3YjlXxhqyhv5TabcAOj0ARr0qvxxW1O9ZbW5l7oytXgp6z1zMpNgZsZZsYAdRklT-s3YQPhoMj81BVkaNSv7-bCx_fKCcddUbo')"></div>
+<div class="absolute bottom-md left-md z-20">
+<span class="px-sm py-1 bg-primary text-on-primary font-label-caps text-[10px] rounded-sm">AGILITY</span>
+</div>
+</div>
+<div class="p-md flex flex-col gap-sm">
+<h3 class="font-title-md text-title-md">Functional Agility</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Multi-planar movement and reactive drills for immediate tactical response.</p>
+<div class="flex justify-between items-center mt-sm pt-sm border-t border-outline-variant">
+<span class="font-data-mono text-data-mono text-primary">LVL 07</span>
+<span class="font-data-mono text-data-mono text-on-surface-variant">30 MINS</span>
+</div>
+</div>
+</div>
+<!-- Recovery/Reflection Card -->
+<div class="md:col-span-4 bg-surface-container border border-outline-variant p-md rounded-xl flex flex-row items-center gap-lg">
+<div class="w-16 h-16 rounded-full border-2 border-secondary flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-3xl" data-icon="self_improvement">self_improvement</span>
+</div>
+<div class="flex-1">
+<h3 class="font-title-md text-title-md">The Stillness of Action</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">"Strength is not in the struggle, but in the readiness to struggle."</p>
+</div>
+<div class="hidden md:block">
+<button class="px-lg py-sm border border-outline text-on-surface font-label-caps text-label-caps hover:bg-surface-variant transition-colors">REFLECT</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Navigation Shell Logic: Primary Ecosystem Page -> Show BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-margin-mobile py-sm pb-8 bg-surface/90 dark:bg-surface/90 backdrop-blur-xl border-t border-outline-variant dark:border-outline-variant z-50 rounded-t-full">
+<!-- Physical - ACTIVE -->
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary group transition-transform duration-200 active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="fitness_center" style="font-variation-settings: 'FILL' 1;">fitness_center</span>
+<span class="font-label-caps text-label-caps">Physical</span>
+</a>
+<!-- Intellect -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant/60 dark:text-on-surface-variant/60 hover:text-secondary/80 transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="font-label-caps text-label-caps">Intellect</span>
+</a>
+<!-- Spiritual -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant/60 dark:text-on-surface-variant/60 hover:text-secondary/80 transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="self_improvement">self_improvement</span>
+<span class="font-label-caps text-label-caps">Spiritual</span>
+</a>
+<!-- Readiness -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant/60 dark:text-on-surface-variant/60 hover:text-secondary/80 transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="bolt">bolt</span>
+<span class="font-label-caps text-label-caps">Readiness</span>
+</a>
+</nav>
+<script>
+        // Micro-interactions for bar chart hover
+        document.querySelectorAll('.bg-surface-variant').forEach(bar => {
+            bar.addEventListener('mouseenter', () => {
+                bar.style.height = (parseInt(bar.style.height) + 5) + '%';
+            });
+            bar.addEventListener('mouseleave', () => {
+                bar.style.height = (parseInt(bar.style.height) - 5) + '%';
+            });
+        });
+    </script>
+</body></html>
