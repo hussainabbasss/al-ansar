@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
+const isStaticExport = process.env.STATIC_EXPORT === "1";
+
 const nextConfig: NextConfig = {
-  output: "export",
+  ...(isStaticExport ? { output: "export" as const } : {}),
   images: {
     unoptimized: true,
   },
-  // Helps Capacitor load nested routes from the static export correctly.
   trailingSlash: true,
 };
 

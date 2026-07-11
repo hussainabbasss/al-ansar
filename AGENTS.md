@@ -12,6 +12,10 @@ Do not invent product behavior that contradicts those docs. If a plan is marked 
 
 Stitch design references live under `docs/stitch_al_asr_readiness_training/`.
 
+## Keep README in sync
+
+After every build or feature pass that changes user-facing behavior, update [`README.md`](README.md) so it matches what the app actually does. Keep the banner, Arabic dua, and translation. Stay direct — no fluff. Reflect new capabilities, removed ones, and accurate paths/commands.
+
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 

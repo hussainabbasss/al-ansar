@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cap": "STATIC_EXPORT=1 next build && npx cap sync",
     "start": "next start",
     "lint": "eslint",
-    "cap:sync": "npm run build && npx cap sync",
+    "cap:sync": "npm run build:cap",
     "cap:android": "npx cap open android",
     "cap:ios": "npx cap open ios"
   },

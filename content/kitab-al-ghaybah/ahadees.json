@@ -81,6 +81,406 @@
       "ref": "Kitab al-Ghaybah — al-Tusi",
       "body": "Certainty is tested in hunger, fear, rumor, and delay. Strengthen the body, sharpen the mind, and polish the soul — so that when the trial peaks, your resolve is already trained.",
       "themes": ["certainty", "resolve"]
+    },
+    {
+      "id": "ghaybah-011",
+      "label": "Firmness in Occultation",
+      "quote": "None of them will remain (on the right path) except a very few, who maintains on the religion of Allah, holds fast by the (rope) of Allah and do not deviate from the right path of Allah.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam Ali",
+      "body": "Steadfastness in occultation is not passive waiting. It requires maintaining one's religion despite the surrounding confusion and holding firmly to divine guidance.",
+      "themes": ["steadfastness", "occultation"]
+    },
+    {
+      "id": "ghaybah-012",
+      "label": "The True Source of Religion",
+      "quote": "He, who comes into this religion imitating the men, will be taken out from it by those men, who has taken him in, and he, who comes to it by the Book and the Sunna, mountains vanish before he gives up.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "True faith must be anchored in the immutable truths of the Quran and the Prophetic tradition, rather than the shifting opinions of men.",
+      "themes": ["faith", "knowledge"]
+    },
+    {
+      "id": "ghaybah-013",
+      "label": "Perception over Narration",
+      "quote": "You know the positions of our followers near us according to the traditions they narrate from us and according to what extent they perceive from us.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Deep comprehension of the traditions is valued far above mere memorization or repetition. One understood tradition is better than a thousand repeated mindlessly.",
+      "themes": ["understanding", "wisdom"]
+    },
+    {
+      "id": "ghaybah-014",
+      "label": "Like Bees Among Birds",
+      "quote": "Be among the people like the bees among the birds. All the birds deem them weak but if they know what there is in their interiors, they will not treat them so. Mix with people with your bodies and be away from them with your hearts.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam Ali",
+      "body": "A believer navigates society with outward gentleness while guarding a profound, inner spiritual resilience that remains unseen to the ignorant.",
+      "themes": ["community", "inner strength"]
+    },
+    {
+      "id": "ghaybah-015",
+      "label": "The Purifying Test",
+      "quote": "By Allah, you will be tested. By Allah, you will be flown right and left until no one of you will remain except he, whom Allah has promised, fixed faith into his heart and assisted with a power of His.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Periods of great confusion serve as a divine sieve, separating those with wavering beliefs from those whose faith is divinely anchored.",
+      "themes": ["trials", "faith"]
+    },
+    {
+      "id": "ghaybah-016",
+      "label": "The Fewer and Fewest",
+      "quote": "...until no one of you will keep on this matter except the fewer and the fewest.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "The path of truth during the occultation is lonely. As trials intensify, only a dedicated minority will hold fast to the promise of the Mahdi.",
+      "themes": ["steadfastness", "trials"]
+    },
+    {
+      "id": "ghaybah-017",
+      "label": "Patience and Waiting",
+      "quote": "Be patient in offering the obligations, be patient before your enemy and station yourselves in waiting for your expected imam!",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "Waiting for the Imam is an active state. It demands fulfilling religious duties, remaining resilient against opposition, and maintaining vigilant anticipation.",
+      "themes": ["patience", "anticipation"]
+    },
+    {
+      "id": "ghaybah-018",
+      "label": "The Lonely Path",
+      "quote": "Do not feel desolate in the way of guidance when there are very few people walking in it.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam Ali",
+      "body": "The validity of a path is not determined by the number of its travelers. Truth often remains the pursuit of the few.",
+      "themes": ["guidance", "solitude"]
+    },
+    {
+      "id": "ghaybah-019",
+      "label": "Getting to the Source",
+      "quote": "He, who walks in the (right) way, will get to the water (source) and he, who deviates from it, will get lost.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam Ali",
+      "body": "Adhering to the lineage of divine guidance guarantees spiritual sustenance, while turning away leads to inevitable confusion and spiritual thirst.",
+      "themes": ["guidance", "salvation"]
+    },
+    {
+      "id": "ghaybah-020",
+      "label": "Arguing with the Infatuated",
+      "quote": "Beware of arguing with any infatuated one because he is prompted (by the Satan) to a certain period and when his period passes, his sin will burn him.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Prophet Muhammad",
+      "body": "Engaging in endless debates with those blinded by illusion is fruitless. Time ultimately reveals the destructive nature of their falsehoods.",
+      "themes": ["wisdom", "restraint"]
+    },
+    {
+      "id": "ghaybah-021",
+      "label": "Preserving the Secret",
+      "quote": "Undertaking our matter is not by knowing and accepting it. It is by preserving and keeping it secret from those, who are not reliable.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "True loyalty to the Imams involves profound discretion. Protecting their esoteric teachings from those who would mock or misuse them is a duty.",
+      "themes": ["discretion", "loyalty"]
+    },
+    {
+      "id": "ghaybah-022",
+      "label": "Silence and Submission",
+      "quote": "It suffices you to say what we have said and to be silent on what we have been silent on.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Obedience requires mirroring the actions and restraints of the divine guides. Speaking when they spoke, and remaining silent when they withheld.",
+      "themes": ["obedience", "submission"]
+    },
+    {
+      "id": "ghaybah-023",
+      "label": "Spreading Secrets",
+      "quote": "He, who spreads our (secret) traditions, is like one, who denies our right.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Exposing sacred knowledge to unprepared minds is as damaging as outright rejection of the Imams' divine authority.",
+      "themes": ["secrecy", "respect"]
+    },
+    {
+      "id": "ghaybah-024",
+      "label": "The Parable of the Ark",
+      "quote": "My family to you is like the Ark of Noah. Whoever rides on it will be safe and whoever lags behind it will drown.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Prophet Muhammad",
+      "body": "In the flood of worldly confusion and spiritual peril, the Prophet's household serves as the solitary vessel of divine rescue.",
+      "themes": ["salvation", "Ahlul Bayt"]
+    },
+    {
+      "id": "ghaybah-025",
+      "label": "The Gate of Forgiveness",
+      "quote": "The example of my family to you is like the Gate of Forgiveness of the Israelites. Whoever enters it his sins will be forgiven and will deserve mercy and blessing of Allah.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Prophet Muhammad",
+      "body": "Just as the Israelites were commanded to enter the Gate of Forgiveness to be absolved of their sins, the Muslim Ummah is directed to the Prophet's family as the gateway to divine mercy.",
+      "themes": ["salvation", "Ahlul Bayt", "mercy"]
+    },
+    {
+      "id": "ghaybah-026",
+      "label": "The Infallible Guides",
+      "quote": "I and my family are infallible. Do not precede them in order not to go astray, do not lag behind them in order not to fall in mistakes, do not object to them in order not to be ignorant...",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam Ali",
+      "body": "Following the Ahlul Bayt requires precise alignment—neither rushing ahead with personal innovations nor lagging behind in negligence. They are the supreme measure of the truth.",
+      "themes": ["infallibility", "guidance", "Ahlul Bayt"]
+    },
+    {
+      "id": "ghaybah-027",
+      "label": "The Divine Covenant",
+      "quote": "You may think that we determine the matter of the imamate as we like! By Allah, it is a covenant from Allah revealed to His messenger (as) and then to certain men one after the other until it reaches its keeper.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "The Imamate is not a political institution subject to human desire or election. It is a strict divine covenant passed down through a designated lineage.",
+      "themes": ["Imamate", "divine decree"]
+    },
+    {
+      "id": "ghaybah-028",
+      "label": "The Earth Never Empty",
+      "quote": "The earth does never remain without a Hujjah; either apparent and known or afraid and unknown lest Allah's proofs and signs will be invalid.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam Ali",
+      "body": "The presence of a divine proof (Hujjah) is a cosmic necessity. Whether visible to the public or hidden in occultation, the Imam anchors the truth on earth.",
+      "themes": ["Hujjah", "occultation"]
+    },
+    {
+      "id": "ghaybah-029",
+      "label": "Twelve Inspired Imams",
+      "quote": "From among my progeny there will be twelve inspired men.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Prophet Muhammad",
+      "body": "The number of the Imams was predetermined and announced by the Prophet himself. They are exclusively twelve, divinely guided and inspired to protect the faith.",
+      "themes": ["twelve imams", "prophecy"]
+    },
+    {
+      "id": "ghaybah-030",
+      "label": "The Hidden and the Apparent",
+      "quote": "...and then He completed the twelve imams from the progeny of al-Husayn. The ninth of them is the hidden and the apparent and the best of them. He is the expected imam.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Prophet Muhammad",
+      "body": "The Mahdi holds a unique paradox: he is physically hidden from the eyes of the masses but his spiritual authority and guidance remain universally apparent.",
+      "themes": ["al-Mahdi", "occultation"]
+    },
+    {
+      "id": "ghaybah-031",
+      "label": "The Inevitable Return",
+      "quote": "He will be al-Mahdi, who will spread justice and equity allover the world after it has been filled with injustice and oppression. There will be confusion and disappearance for him.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam Ali",
+      "body": "The ultimate goal of the Mahdi's return is the restoration of universal justice, but it is necessarily preceded by a grueling period of occultation and widespread societal confusion.",
+      "themes": ["justice", "al-Mahdi", "end times"]
+    },
+    {
+      "id": "ghaybah-032",
+      "label": "The Continuous Guardians",
+      "quote": "They are the guardians, one after the other, until they come to me at the pond (in Paradise). Every one of them is guided and he is a guide for people.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Prophet Muhammad",
+      "body": "The unbroken chain of Imams provides constant spiritual nourishment and direction, seamlessly guiding the ummah until the Day of Judgment.",
+      "themes": ["guardianship", "guidance"]
+    },
+    {
+      "id": "ghaybah-033",
+      "label": "The Sifting of the Believers",
+      "quote": "By Allah, you are going to be tested, clarified and sifted like sifting out the Zu'an from wheat.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "The period of occultation serves as a divine sieve. Only the purest hearts, free from the chaff of doubt and worldly attachment, will endure the prolonged waiting.",
+      "themes": ["trials", "purification"]
+    },
+    {
+      "id": "ghaybah-034",
+      "label": "Islam Returning Strange",
+      "quote": "Islam has begun strange and it will return strange as it has begun. Blessed are the strangers!",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "When the Mahdi reappears, he will re-establish the pure, unadulterated Islam, which will seem entirely foreign to a world corrupted by generations of innovation.",
+      "themes": ["Islam", "renewal", "al-Mahdi"]
+    },
+    {
+      "id": "ghaybah-035",
+      "label": "The Constant Guide",
+      "quote": "Each imam is a guide to the people of his age.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Divine guidance is never suspended. Every generation is endowed with a living Imam who perfectly understands and addresses the unique challenges of his era.",
+      "themes": ["guidance", "living imam"]
+    },
+    {
+      "id": "ghaybah-036",
+      "label": "The Painful Ignorance",
+      "quote": "He, who spent a night without knowing his imam, will die as an unbeliever.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Acknowledging the living Imam is not optional; it is the cornerstone of Islamic faith. Without this foundational connection, one's religious standing collapses into ignorance.",
+      "themes": ["knowledge", "faith", "Imamate"]
+    },
+    {
+      "id": "ghaybah-037",
+      "label": "Unaccepted Worship",
+      "quote": "Whoever tries his best in worshipping Allah without following an imam inspired by Allah, his worshipping will not be accepted and he is astray and confused...",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "Acts of worship must be directed through the proper divine channels. Diligence in prayer without loyalty to the appointed Imam is a misdirected and fruitless spiritual effort.",
+      "themes": ["worship", "obedience"]
+    },
+    {
+      "id": "ghaybah-038",
+      "label": "The Price of Denial",
+      "quote": "He, who denies one of the alive imams, has denied the dead (imams).",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "The chain of Imamate is an indivisible whole. Rejecting the authority of the current Imam is equivalent to rejecting the entire prophetic and immamate lineage.",
+      "themes": ["unity of imamate", "denial"]
+    },
+    {
+      "id": "ghaybah-039",
+      "label": "Fleeing from Personal Opinions",
+      "quote": "It means one, who depends upon his own opinion in the affairs of religion without following an imam of the imams of guidance.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam ar-Redha",
+      "body": "True religion relies on divine revelation and appointed guides, not on the shifting, fallible whims of personal opinion and analogical reasoning.",
+      "themes": ["guidance", "anti-analogy"]
+    },
+    {
+      "id": "ghaybah-040",
+      "label": "Two Disappearances",
+      "quote": "Al-Qa'im disappears twice; one is a short disappearance and the other is long.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "The occultation occurs in two phases. The minor occultation featured designated deputies, while the major occultation removes direct contact, severely testing the believers' patience.",
+      "themes": ["occultation", "al-Mahdi"]
+    },
+    {
+      "id": "ghaybah-041",
+      "label": "The False Claimants",
+      "quote": "There are three persons, whom Allah will not speak to on the Day of Resurrection... one, who pretends that he is an imam but he is not...",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Claiming the divine right of Imamate without authorization is a profound spiritual crime, severing the claimant entirely from God's mercy on the Day of Judgment.",
+      "themes": ["falsehood", "divine judgment"]
+    },
+    {
+      "id": "ghaybah-042",
+      "label": "Preparing for the Return",
+      "quote": "Every one of you is to prepare himself for the appearance of al-Qa'im even with one arrow...",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Awaiting the Mahdi is not a passive state. It demands active physical, spiritual, and mental readiness, demonstrating a sincere commitment to his revolution.",
+      "themes": ["preparation", "awaiting"]
+    },
+    {
+      "id": "ghaybah-043",
+      "label": "The Danger of Haste",
+      "quote": "The diviners tell lies. We, Ahlul Bayt, do not time. Allah dose not consent save to reverse the timing of the diviners.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Believers must avoid attempting to predict the exact date of the Mahdi's return. Such haste contradicts the required submission to God's ultimate and unrevealed timing.",
+      "themes": ["timing", "patience", "submission"]
+    },
+    {
+      "id": "ghaybah-044",
+      "label": "The Heavenly Call",
+      "quote": "A caller will call out from the Heaven that so-and-so is the emir and that Ali and his followers are the triumphants.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "The advent of the Mahdi will be heralded by an undeniable cosmic sign—a divine voice from the sky affirming the truth of Ali and his followers, clearing all worldly ambiguities.",
+      "themes": ["signs of return", "heavenly call"]
+    },
+    {
+      "id": "ghaybah-045",
+      "label": "The Sword of Justice",
+      "quote": "Al-Qa'im will rise with a new task, new principles and new judgements. He will be severe with the Arabs. He will do not but killing.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "While the Prophet established the religion with leniency, the Mahdi's era is one of execution and final justice. He will fiercely eradicate entrenched corruption without compromise.",
+      "themes": ["justice", "severity", "al-Qa'im"]
+    },
+    {
+      "id": "ghaybah-046",
+      "label": "The 313 Companions",
+      "quote": "Allah will make his (al-Mahdi's) three hundred and thirteen companions join him without any previous appointment.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "The core commanders of the Mahdi's revolution are a predetermined, divinely selected elite. Their miraculous gathering in Mecca signifies the suddenness of God's command.",
+      "themes": ["companions", "Mecca", "miracle"]
+    },
+    {
+      "id": "ghaybah-047",
+      "label": "The Obscure Youth",
+      "quote": "This matter (deliverance) will be carried out by the youngest and obscurest one of us.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "The savior will rise from a place of profound obscurity and will be granted authority at a very young age, confounding the expectations of traditional power structures.",
+      "themes": ["youth", "obscurity", "al-Mahdi"]
+    },
+    {
+      "id": "ghaybah-048",
+      "label": "A Trial by Absence",
+      "quote": "You still expect (deliverance) until Allah sends for this matter one, whom you do not know whether he is created or not.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "The ultimate test of faith is believing in an Imam whose very existence is highly obscured and debated by the public, relying purely on the theological necessity of his presence.",
+      "themes": ["trials", "occultation", "faith"]
+    },
+    {
+      "id": "ghaybah-049",
+      "label": "The Purified Remainder",
+      "quote": "By Allah you are going to be sifted, to be clarified and to be purified until none of you remain save the least.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "The long occultation acts as a relentless crucible. As time stretches, superficial believers fall away, leaving only a highly concentrated, unbreakable core of devotees.",
+      "themes": ["purification", "steadfastness"]
+    },
+    {
+      "id": "ghaybah-050",
+      "label": "The Light of the Intellect",
+      "quote": "Know your imam. If you know him, it does not harm you whether this matter comes soon or late...",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Epistemological certainty in the Imam is the goal, not merely witnessing his earthly triumph. One who truly recognizes the Imam has already achieved spiritual deliverance.",
+      "themes": ["knowledge", "deliverance"]
+    },
+    {
+      "id": "ghaybah-051",
+      "label": "A Shepherd to His Flock",
+      "quote": "The world will not be empty of a jurisprudent (imam). Whenever the believers add something (a heresy) to the religion, he prevents them from that...",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Even in occultation, the Imam actively preserves the integrity of the faith, subtly preventing the complete corruption of the religious tradition.",
+      "themes": ["preservation", "Imamate"]
+    },
+    {
+      "id": "ghaybah-052",
+      "label": "The Paradox of Visibility",
+      "quote": "People will miss an imam. He attends the seasons (of hajj). He sees the people but they do not see him.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Occultation is not absence from the world. The Imam is physically present, observing his community and performing rituals, though veiled from their direct recognition.",
+      "themes": ["hajj", "occultation", "presence"]
+    },
+    {
+      "id": "ghaybah-053",
+      "label": "The Prophetic Relics",
+      "quote": "When al-Qa'im appears, he will appear with the banner of Prophet Muhammad (as), the ring of Solomon (as) and the rock and the staff of Moses (as).",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "The Mahdi is the inheritor of the spiritual and physical legacies of all major prophets, wielding their miraculous artifacts to establish ultimate divine authority.",
+      "themes": ["relics", "miracles", "prophets"]
+    },
+    {
+      "id": "ghaybah-054",
+      "label": "The Call of Gabriel",
+      "quote": "The call will make every sleeper awake, every stander sit and every sitter stand because of fright... the first cry will be the cry of Gabriel (as).",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "The cosmic announcement of the Mahdi's arrival will be a terrifying, awe-inspiring event, cutting through all human ignorance and forcing global attention to the truth.",
+      "themes": ["heavenly call", "Gabriel", "awe"]
+    },
+    {
+      "id": "ghaybah-055",
+      "label": "The True Deliverance",
+      "quote": "This matter (the appearance of al-Qa'im) has a precise time that it must reach. If it reaches its time, it will occur neither an hour sooner nor an hour later.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "God's timeline for salvation is absolute and unalterable by human anxiety. Believers must cultivate patience rather than rushing a divine process that is meticulously scheduled.",
+      "themes": ["divine timing", "patience"]
+    },
+    {
+      "id": "ghaybah-056",
+      "label": "The Banners of Guidance",
+      "quote": "From among the three banners, only the banner of al-Yamani will be a banner of guidance because he will invite to the mission of your man (al-Qa'im).",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam al-Baqir",
+      "body": "In the chaos preceding the Mahdi, various political and military movements will arise. Only the movement strictly aligned with and paving the way for the Mahdi is considered legitimate guidance.",
+      "themes": ["al-Yamani", "guidance", "signs"]
+    },
+    {
+      "id": "ghaybah-057",
+      "label": "A Ruler from the Progeny",
+      "quote": "The rule of al-Qa'im will last for nineteen years and some months.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "Once the grueling wait is over, the Mahdi's reign, though brief in the grand scale of history, will fundamentally transform the earth with concentrated justice and equity.",
+      "themes": ["reign", "al-Qa'im"]
+    },
+    {
+      "id": "ghaybah-058",
+      "label": "Between Knowing and Denying",
+      "quote": "When al-Qa'im (as) rises, people will deny him because he will come back to them as a young man.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "The prolonged occultation will skew public expectations. When the Mahdi returns with miraculous youth despite his age, superficial believers will fail to recognize him.",
+      "themes": ["youth", "denial", "return"]
+    },
+    {
+      "id": "ghaybah-059",
+      "label": "The Test of the Fetus",
+      "quote": "You are going to be tried with the fetus while still in its mother's womb and with the suckling until it is said: he has disappeared and he has died.",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam ar-Redha",
+      "body": "The occultation challenges believers from the very inception of the Mahdi's life. Trusting in a hidden birth and a concealed existence separates the resolute from the doubtful.",
+      "themes": ["birth", "occultation", "trial"]
+    },
+    {
+      "id": "ghaybah-060",
+      "label": "The Ultimate Relief",
+      "quote": "If only two men remain on the earth, one of them must be al-Hujjah (Imam al-Mahdi).",
+      "ref": "Kitab al-Ghaybah — an-Nu'mani, Imam as-Sadiq",
+      "body": "The necessity of a divine guide is an immutable law of existence. Human life cannot persist without the tether of spiritual authority binding the earth to the heavens.",
+      "themes": ["Hujjah", "spiritual necessity"]
     }
   ]
 }
