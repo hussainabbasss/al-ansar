@@ -4,9 +4,21 @@
   <img src="./docs/banner.png" alt="Al-Ansaar — Imam al-Asr (atfs)" width="420" />
 </p>
 
-<p align="center">
-  <img src="./docs/dua-al-ahd.png" alt="Dua Al-A'hd — O Allah, make me among His helpers (Ansaar)" width="560" />
-</p>
+<div align="center">
+  <blockquote style="background-color: #0d1117; border: 1px solid #30363d; border-left: 4px solid #d4af37; padding: 30px 20px; border-radius: 8px; max-width: 800px;">
+    <p dir="rtl" style="font-family: 'Times New Roman', serif; font-size: 2.2rem; line-height: 2; color: #ffd700; margin-bottom: 20px; text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);">
+      اَللَّهُمَّ اجْعَلْنِي مِنْ أَنْصَارِهِ وَأَعْوَانِهِ وَالذَّابِّينَ عَنْهُ وَالْمُسَارِعِينَ إِلَيْهِ فِي قَضَاءِ حَوَائِجِهِ وَالْمُمْتَثِلِينَ لِأَوَامِرِهِ وَالْمُحَامِينَ عَنْهُ وَالسَّابِقِينَ إِلَىٰ إِرَادَتِهِ وَالْمُسْتَشْهَدِينَ بَيْنَ يَدَيْهِ
+    </p>
+    <p style="color: #d4af37; margin: 15px 0;">✦ ✦ ✦</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #c9d1d9; font-style: italic;">
+      "O Allah, make me among <strong style="color: #ffeaa7; text-transform: uppercase; letter-spacing: 1px;">his helpers (Ansaar)</strong>, his aides, and his defenders; those who hasten to fulfill his needs, and those who obey his commands; his protectors, those who rush ahead to fulfill his will, and those who attain martyrdom in his presence."
+    </p>
+    <p style="font-size: 0.8rem; letter-spacing: 2px; color: #8b949e; margin-top: 20px; text-transform: uppercase;">
+      — Dua Al-A'hd
+    </p>
+
+  </blockquote>
+</div>
 
 **Al-Ansaar** (الانصار) — local-first readiness training for the Shia community. It treats **Intizar** — waiting for Imam al-Mahdi (atfs) — as active preparation: physical readiness, intellectual grounding, and spiritual mindfulness.
 
